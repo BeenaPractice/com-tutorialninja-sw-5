@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Login Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Login Test</h1>
+<p>
+  Test duration: 227.973s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialninja.testsuite.AccountRegisterPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyThatUserRegisterAccountSuccessfully
+      </td>
+  <td class="duration">
+    41.860s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Click on my account tab[[ChromeDriver: chrome on WINDOWS (a3084b8284d4132dc66ade5db108a525)] -&gt; xpath: //span[normalize-space()=&apos;My Account&apos;]]<br />
+                                Select my account options[[[ChromeDriver: chrome on WINDOWS (a3084b8284d4132dc66ade5db108a525)] -&gt; xpath: //ul[@class = &apos;dropdown-menu dropdown-menu-right&apos;]//li], [[ChromeDriver: chrome on WINDOWS (a3084b8284d4132dc66ade5db108a525)] -&gt; xpath: //ul[@class = &apos;dropdown-menu dropdown-menu-right&apos;]//li]]<br />
+                                Enter first name[[ChromeDriver: chrome on WINDOWS (a3084b8284d4132dc66ade5db108a525)] -&gt; name: firstname]<br />
+                                Enter last name[[ChromeDriver: chrome on WINDOWS (a3084b8284d4132dc66ade5db108a525)] -&gt; name: lastname]<br />
+                                Enter email[[ChromeDriver: chrome on WINDOWS (a3084b8284d4132dc66ade5db108a525)] -&gt; name: email]<br />
+                                Enter Telephone[[ChromeDriver: chrome on WINDOWS (a3084b8284d4132dc66ade5db108a525)] -&gt; name: telephone]<br />
+                                Enter password[[ChromeDriver: chrome on WINDOWS (a3084b8284d4132dc66ade5db108a525)] -&gt; id: input-password]<br />
+                                Enter confirm password[[ChromeDriver: chrome on WINDOWS (a3084b8284d4132dc66ade5db108a525)] -&gt; id: input-confirm]<br />
+                                Click on radio button for subscribe[[ChromeDriver: chrome on WINDOWS (a3084b8284d4132dc66ade5db108a525)] -&gt; xpath: (//input[@type=&apos;radio&apos;])[2]]<br />
+                                Click on privacy check box[[ChromeDriver: chrome on WINDOWS (a3084b8284d4132dc66ade5db108a525)] -&gt; name: agree]<br />
+                                Click on continue button[[ChromeDriver: chrome on WINDOWS (a3084b8284d4132dc66ade5db108a525)] -&gt; xpath: //input[@type=&apos;submit&apos;]]<br />
+                                Get text account is createdProxy element for: DefaultElementLocator &apos;By.xpath: //h1[contains(text(),&apos;Your Account Has Been Created!&apos;)]&apos;<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[contains(text(),&apos;Your Account Has Been Created!&apos;)]&quot;}<br/>
+&nbsp; (Session info: chrome=114.0.5735.199)<br/>
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element<br/>
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [a3084b8284d4132dc66ade5db108a525, findElement {using=xpath, value=//h1[contains(text(),&apos;Your Account Has Been Created!&apos;)]}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Purvi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52362}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52362/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: a3084b8284d4132dc66ade5db108a525</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)<br />
+              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)<br />
+              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)<br />
+              org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)<br />
+              com.sun.proxy.$Proxy16.getText(Unknown Source)<br />
+              com.tutorialninja.utility.Utility.getTextFromElement(Utility.java:61)<br />
+              com.tutorialninja.pages.MyAccountRegisterPage.getAccountHasBeenCreatedText(MyAccountRegisterPage.java:125)<br />
+              com.tutorialninja.testsuite.AccountRegisterPageTest.verifyThatUserRegisterAccountSuccessfully(AccountRegisterPageTest.java:59)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialninja.testsuite.LapTopsAndNoteBooksTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyThatUserPlaceOrderSuccessfully
+      </td>
+  <td class="duration">
+    48.366s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Click on currency tab[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //span[contains(text(),&apos;Currency&apos;)]]<br />
+                                Click on pound sterling[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //button[contains(text(),&apos;£Pound Sterling&apos;)]]<br />
+                                Mouse hover and click on Laptop and Notebooks[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; link text: Laptops &amp; Notebooks]<br />
+                                Click on show all laptop and notebooks[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; link text: Show AllLaptops &amp; Notebooks]<br />
+                                Product Sort by High low price[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; id: input-sort]<br />
+                                Click on Macbook[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; link text: MacBook]<br />
+                                Get Text MacBook[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //h1[contains(text(),&apos;MacBook&apos;)]]<br />
+                                Click on add to cart[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //button[@id=&apos;button-cart&apos;]]<br />
+                                Get Text Success[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //div[@class=&apos;alert alert-success alert-dismissible&apos;]]<br />
+                                Click on shopping cart[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //a[contains(text(),&apos;shopping cart&apos;)]]<br />
+                                Get text shopping cart[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //div[@id=&apos;content&apos;]//h1]<br />
+                                Get Text MacBook[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //div[@class = &apos;table-responsive&apos;]/table/tbody/tr/td[2]/a]<br />
+                                Change the Qty[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //input[contains(@name, &apos;quantity&apos;)]]<br />
+                                Click on update tab[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //button[contains(@data-original-title, &apos;Update&apos;)]]<br />
+                                Get Text modified success[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //div[@id=&apos;checkout-cart&apos;]/div[1]]<br />
+                                Get Text Total amount[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //div[@class = &apos;table-responsive&apos;]/table/tbody/tr/td[6]]<br />
+                                Click on checkout[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //a[contains(text(),&apos;Checkout&apos;)]]<br />
+                                Get Text Check Out[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //h1[contains(text(),&apos;Checkout&apos;)]]<br />
+                                Get Text New customer[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //h2[contains(text(),&apos;New Customer&apos;)]]<br />
+                                Click on guest checkout button[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //input[@value=&apos;guest&apos;]]<br />
+                                Click on Continue button[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //input[@id=&apos;button-account&apos;]]<br />
+                                Enter first name[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //input[@id=&apos;input-payment-firstname&apos;]]<br />
+                                Enter last name[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //input[@id=&apos;input-payment-lastname&apos;]]<br />
+                                Enter email[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //input[@id=&apos;input-payment-email&apos;]]<br />
+                                Enter Telephone[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //input[@id=&apos;input-payment-telephone&apos;]]<br />
+                                Enter Address[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //input[@id=&apos;input-payment-address-1&apos;]]<br />
+                                Enter City[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //input[@id=&apos;input-payment-city&apos;]]<br />
+                                Enter postcode[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //input[@id=&apos;input-payment-postcode&apos;]]<br />
+                                Enter Country[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //select[@id=&apos;input-payment-country&apos;]]<br />
+                                Enter State[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //select[@id=&apos;input-payment-zone&apos;]]<br />
+                                Click on continue button[[ChromeDriver: chrome on WINDOWS (3b273fae70311a6e1593d2ad15f143ca)] -&gt; xpath: //input[@id=&apos;button-guest&apos;]]<br />
+                                Enter commentProxy element for: DefaultElementLocator &apos;By.tagName: textarea&apos;<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;tag name&quot;,&quot;selector&quot;:&quot;textarea&quot;}<br/>
+&nbsp; (Session info: chrome=114.0.5735.199)<br/>
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element<br/>
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [3b273fae70311a6e1593d2ad15f143ca, findElement {using=tag name, value=textarea}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Purvi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52487/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 3b273fae70311a6e1593d2ad15f143ca</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
+              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)<br />
+              org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)<br />
+              org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)<br />
+              org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)<br />
+              com.sun.proxy.$Proxy16.sendKeys(Unknown Source)<br />
+              com.tutorialninja.utility.Utility.sendTextToElement(Utility.java:72)<br />
+              com.tutorialninja.pages.CheckOutPage.enterCommentInTextAea(CheckOutPage.java:117)<br />
+              com.tutorialninja.testsuite.LapTopsAndNoteBooksTest.verifyThatUserPlaceOrderSuccessfully(LapTopsAndNoteBooksTest.java:105)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialninja.testsuite.AccountLoginPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyThatUserShouldLoginAndLogoutSuccessfully
+      </td>
+  <td class="duration">
+    2.814s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Click on my account tab[[ChromeDriver: chrome on WINDOWS (d6c709141173fa3c28d562ac439df90e)] -&gt; xpath: //span[normalize-space()=&apos;My Account&apos;]]<br />
+                                Select my account options[[[ChromeDriver: chrome on WINDOWS (d6c709141173fa3c28d562ac439df90e)] -&gt; xpath: //ul[@class = &apos;dropdown-menu dropdown-menu-right&apos;]//li], [[ChromeDriver: chrome on WINDOWS (d6c709141173fa3c28d562ac439df90e)] -&gt; xpath: //ul[@class = &apos;dropdown-menu dropdown-menu-right&apos;]//li]]<br />
+                                Enter email[[ChromeDriver: chrome on WINDOWS (d6c709141173fa3c28d562ac439df90e)] -&gt; id: input-email]<br />
+                                Enter password[[ChromeDriver: chrome on WINDOWS (d6c709141173fa3c28d562ac439df90e)] -&gt; name: password]<br />
+                                Click on login button[[ChromeDriver: chrome on WINDOWS (d6c709141173fa3c28d562ac439df90e)] -&gt; xpath: //input[@value=&apos;Login&apos;]]<br />
+                                Get Text My account[[ChromeDriver: chrome on WINDOWS (d6c709141173fa3c28d562ac439df90e)] -&gt; xpath: //h2[contains(text(),&apos;My Account&apos;)]]<br />
+                                Select my account options[[[ChromeDriver: chrome on WINDOWS (d6c709141173fa3c28d562ac439df90e)] -&gt; xpath: //ul[@class = &apos;dropdown-menu dropdown-menu-right&apos;]//li], [[ChromeDriver: chrome on WINDOWS (d6c709141173fa3c28d562ac439df90e)] -&gt; xpath: //ul[@class = &apos;dropdown-menu dropdown-menu-right&apos;]//li]]<br />
+                                Get text account logout[[ChromeDriver: chrome on WINDOWS (d6c709141173fa3c28d562ac439df90e)] -&gt; xpath: //h1[contains(text(),&apos;Account Logout&apos;)]]<br />
+                                Click on continue button[[ChromeDriver: chrome on WINDOWS (d6c709141173fa3c28d562ac439df90e)] -&gt; xpath: //a[contains(text(),&apos;Continue&apos;)]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToLoginPageSuccessfully
+      </td>
+  <td class="duration">
+    0.608s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Click on my account tab[[ChromeDriver: chrome on WINDOWS (3f8f71c03897ad8ff42ba0b3ad8baf0a)] -&gt; xpath: //span[normalize-space()=&apos;My Account&apos;]]<br />
+                                Select my account options[[[ChromeDriver: chrome on WINDOWS (3f8f71c03897ad8ff42ba0b3ad8baf0a)] -&gt; xpath: //ul[@class = &apos;dropdown-menu dropdown-menu-right&apos;]//li], [[ChromeDriver: chrome on WINDOWS (3f8f71c03897ad8ff42ba0b3ad8baf0a)] -&gt; xpath: //ul[@class = &apos;dropdown-menu dropdown-menu-right&apos;]//li]]<br />
+                                Get Text Return customer[[ChromeDriver: chrome on WINDOWS (3f8f71c03897ad8ff42ba0b3ad8baf0a)] -&gt; xpath: //h2[normalize-space()=&apos;Returning Customer&apos;]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialninja.testsuite.AccountRegisterPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToRegisterPageSuccessfully
+      </td>
+  <td class="duration">
+    0.904s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Click on my account tab[[ChromeDriver: chrome on WINDOWS (bb207d957a228cf42443f01e4fb3b502)] -&gt; xpath: //span[normalize-space()=&apos;My Account&apos;]]<br />
+                                Select my account options[[[ChromeDriver: chrome on WINDOWS (bb207d957a228cf42443f01e4fb3b502)] -&gt; xpath: //ul[@class = &apos;dropdown-menu dropdown-menu-right&apos;]//li], [[ChromeDriver: chrome on WINDOWS (bb207d957a228cf42443f01e4fb3b502)] -&gt; xpath: //ul[@class = &apos;dropdown-menu dropdown-menu-right&apos;]//li]]<br />
+                                Get Text Register account[[ChromeDriver: chrome on WINDOWS (bb207d957a228cf42443f01e4fb3b502)] -&gt; xpath: //h1[normalize-space()=&apos;Register Account&apos;]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialninja.testsuite.DeskTopTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyProductAddedToShoppingCartSuccessFully
+      </td>
+  <td class="duration">
+    12.578s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mouse hover and click on desktop[[ChromeDriver: chrome on WINDOWS (dc2e9d516c8f1e80b283a19679910a78)] -&gt; link text: Desktops]<br />
+                                Click on show all desktop[[ChromeDriver: chrome on WINDOWS (dc2e9d516c8f1e80b283a19679910a78)] -&gt; link text: Show AllDesktops]<br />
+                                Select sort by A to Z[[ChromeDriver: chrome on WINDOWS (dc2e9d516c8f1e80b283a19679910a78)] -&gt; id: input-sort]<br />
+                                Select product[[ChromeDriver: chrome on WINDOWS (dc2e9d516c8f1e80b283a19679910a78)] -&gt; xpath: //a[contains(text(),&apos;HP LP3065&apos;)]]<br />
+                                Get text HP[[ChromeDriver: chrome on WINDOWS (dc2e9d516c8f1e80b283a19679910a78)] -&gt; xpath: //h1[contains(text(),&apos;HP LP3065&apos;)]]<br />
+                                Add to cart[[ChromeDriver: chrome on WINDOWS (dc2e9d516c8f1e80b283a19679910a78)] -&gt; id: button-cart]<br />
+                                Get text Success Message[[ChromeDriver: chrome on WINDOWS (dc2e9d516c8f1e80b283a19679910a78)] -&gt; xpath: //div[@class=&apos;alert alert-success alert-dismissible&apos;]]<br />
+                                Click on shopping cart[[ChromeDriver: chrome on WINDOWS (dc2e9d516c8f1e80b283a19679910a78)] -&gt; xpath: //a[contains(text(),&apos;shopping cart&apos;)]]<br />
+                                Get text Shopping cart[[ChromeDriver: chrome on WINDOWS (dc2e9d516c8f1e80b283a19679910a78)] -&gt; xpath: //h1[contains(text(),&apos;Shopping Cart&apos;)]]<br />
+                                Click on currency tab[[ChromeDriver: chrome on WINDOWS (dc2e9d516c8f1e80b283a19679910a78)] -&gt; xpath: //span[contains(text(),&apos;Currency&apos;)]]<br />
+                                Click on pound sterling[[ChromeDriver: chrome on WINDOWS (dc2e9d516c8f1e80b283a19679910a78)] -&gt; xpath: //button[contains(text(),&apos;£Pound Sterling&apos;)]]<br />
+                                Get text HPP Product[[ChromeDriver: chrome on WINDOWS (dc2e9d516c8f1e80b283a19679910a78)] -&gt; xpath: (//a[text()=&apos;HP LP3065&apos;])[2]]<br />
+                                Get text delivery date[[ChromeDriver: chrome on WINDOWS (dc2e9d516c8f1e80b283a19679910a78)] -&gt; xpath: //small[normalize-space()=&apos;Delivery Date:2023-11-30&apos;]]<br />
+                                Get text Product 21[[ChromeDriver: chrome on WINDOWS (dc2e9d516c8f1e80b283a19679910a78)] -&gt; xpath: //td[normalize-space()=&apos;Product 21&apos;]]<br />
+                                Get text Total cost[[ChromeDriver: chrome on WINDOWS (dc2e9d516c8f1e80b283a19679910a78)] -&gt; xpath: (//td[@class=&apos;text-right&apos;][normalize-space()=&apos;£74.73&apos;])[4]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyProductArrangeInAlphaBaticalOrder
+      </td>
+  <td class="duration">
+    1.746s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mouse hover and click on desktop[[ChromeDriver: chrome on WINDOWS (db2dd688ad17d2540ab2bd8d7ed25ddf)] -&gt; link text: Desktops]<br />
+                                Click on show all desktop[[ChromeDriver: chrome on WINDOWS (db2dd688ad17d2540ab2bd8d7ed25ddf)] -&gt; link text: Show AllDesktops]<br />
+                                Select sort by Z to A[[ChromeDriver: chrome on WINDOWS (db2dd688ad17d2540ab2bd8d7ed25ddf)] -&gt; id: input-sort]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialninja.testsuite.LapTopsAndNoteBooksTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyProductsPriceDisplayHighToLowSuccessfully
+      </td>
+  <td class="duration">
+    1.419s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mouse hover and click on Laptop and Notebooks[[ChromeDriver: chrome on WINDOWS (81209a940a994ef7b9f8f681743e22d2)] -&gt; link text: Laptops &amp; Notebooks]<br />
+                                Click on show all laptop and notebooks[[ChromeDriver: chrome on WINDOWS (81209a940a994ef7b9f8f681743e22d2)] -&gt; link text: Show AllLaptops &amp; Notebooks]<br />
+                                Original product list[[[ChromeDriver: chrome on WINDOWS (81209a940a994ef7b9f8f681743e22d2)] -&gt; xpath: //p[@class =&apos;price&apos;]], [[ChromeDriver: chrome on WINDOWS (81209a940a994ef7b9f8f681743e22d2)] -&gt; xpath: //p[@class =&apos;price&apos;]], [[ChromeDriver: chrome on WINDOWS (81209a940a994ef7b9f8f681743e22d2)] -&gt; xpath: //p[@class =&apos;price&apos;]], [[ChromeDriver: chrome on WINDOWS (81209a940a994ef7b9f8f681743e22d2)] -&gt; xpath: //p[@class =&apos;price&apos;]], [[ChromeDriver: chrome on WINDOWS (81209a940a994ef7b9f8f681743e22d2)] -&gt; xpath: //p[@class =&apos;price&apos;]]]<br />
+                                Product Sort by High low price[[ChromeDriver: chrome on WINDOWS (81209a940a994ef7b9f8f681743e22d2)] -&gt; id: input-sort]<br />
+                                After sort by price[[[ChromeDriver: chrome on WINDOWS (81209a940a994ef7b9f8f681743e22d2)] -&gt; xpath: //p[@class =&apos;price&apos;]], [[ChromeDriver: chrome on WINDOWS (81209a940a994ef7b9f8f681743e22d2)] -&gt; xpath: //p[@class =&apos;price&apos;]], [[ChromeDriver: chrome on WINDOWS (81209a940a994ef7b9f8f681743e22d2)] -&gt; xpath: //p[@class =&apos;price&apos;]], [[ChromeDriver: chrome on WINDOWS (81209a940a994ef7b9f8f681743e22d2)] -&gt; xpath: //p[@class =&apos;price&apos;]], [[ChromeDriver: chrome on WINDOWS (81209a940a994ef7b9f8f681743e22d2)] -&gt; xpath: //p[@class =&apos;price&apos;]]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.tutorialninja.testsuite.TopMenuTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToComponentsPageSuccessfully
+      </td>
+  <td class="duration">
+    20.888s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mouse hover and click on Components[[ChromeDriver: chrome on WINDOWS (81917ae75de8c35a3fcae56f7582e35a)] -&gt; link text: Components]<br />
+                                Select from top menu[]<br />
+                                Get Text Components[[ChromeDriver: chrome on WINDOWS (81917ae75de8c35a3fcae56f7582e35a)] -&gt; xpath: //h2[contains(text(),&apos;Components&apos;)]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToDesktopsPageSuccessfully
+      </td>
+  <td class="duration">
+    21.203s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mouse hover and click on desktop[[ChromeDriver: chrome on WINDOWS (b7733f215076d544181cf712340bf83a)] -&gt; link text: Desktops]<br />
+                                Select from top menu[]<br />
+                                Get Text Desktop[[ChromeDriver: chrome on WINDOWS (b7733f215076d544181cf712340bf83a)] -&gt; xpath: //h2[contains(text(),&apos;Desktops&apos;)]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToLaptopsAndNotebooksPageSuccessfully
+      </td>
+  <td class="duration">
+    20.859s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Mouse hover and click on Laptop and Notebooks[[ChromeDriver: chrome on WINDOWS (a6afb98ef3e592d7289124b1b5137679)] -&gt; link text: Laptops &amp; Notebooks]<br />
+                                Select from top menu[]<br />
+                                Get Text Laptop and Notebooks[[ChromeDriver: chrome on WINDOWS (a6afb98ef3e592d7289124b1b5137679)] -&gt; xpath: //h2[contains(text(),&apos;Laptops &amp; Notebooks&apos;)]]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

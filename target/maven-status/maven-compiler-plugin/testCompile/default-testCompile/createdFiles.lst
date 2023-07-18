@@ -1,0 +1,6 @@
+com\tutorialninja\testsuite\TopMenuTest.class
+com\tutorialninja\testsuite\AccountLoginPageTest.class
+com\tutorialninja\testsuite\AccountRegisterPageTest.class
+com\tutorialninja\testbase\BaseTest.class
+com\tutorialninja\testsuite\DeskTopTest.class
+com\tutorialninja\testsuite\LapTopsAndNoteBooksTest.class
